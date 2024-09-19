@@ -2,7 +2,7 @@ public class Main {
   public static void main(String[] args) {
     String excersise = "001";
     while (true) {
-      if (excersise.equals("003"))
+      if (excersise.equals("008"))
         break;
 
       if (TestJavaPrograms.Testing(excersise) == false) {
