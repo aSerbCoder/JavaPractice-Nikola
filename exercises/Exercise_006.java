@@ -10,32 +10,15 @@ package exercises;
 //    }                                                 // 
 //  This prints out numbers 0-9, each                   // 
 //   on its own line.                                   // 
-//                                                      //
-// For loops for iteration                              //
-//                                                      //
-//  If you have an array, you can access each           //
-//  individual thing in the array with an iterator      //
-//  How this looks:                                     //
 //                                                      // 
-//  https://www.w3schools.com/java/java_arrays_loop.asp //
-//                                                      // 
-// Use this logic to print out your name with the       // 
-// variables I have given you.                          //
+// Use this to print numbers 1-10 and each number is    // 
+// print on its own line                                //
 //                                                      // 
 // Good luck!                                           // 
 //////////////////////////////////////////////////////////
 
 public class Exercise_006 {
   public static void main(String[] args) {
-    // your name as an array
-    Byte[] nikola = { 'n', 'i', 'k', 'o', 'l', 'a' };
-    // use the doc I gave you!!
-    for (int i = 0; i < {INSERT}; i++) {
-      // enter the correct print function
-      // as well as what goes with it
-
-      // HERE ^^^
-    }
-    System.out.println();
+    {INSERT LOOP}
   }
 }

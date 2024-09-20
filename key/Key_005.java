@@ -2,17 +2,15 @@ package key;
 
 public class Key_005 {
   public static void main(String[] args) {
-    int sum = 0;
 
-    // remember, sum up numbers 0 -> 9
-    for (int step = 0; step < 10; step++) {
-      // in other words, sum is equal to itself
-      // plus whatever is on the right side.
-      sum += step;
-    }
+    // run the code first, see what happens
+    int x = 1;
+    int y = 4;
 
-    // print sum, you should know how to do this
-    // by now
-    System.out.println(sum);
+    // oh no.. this does not print 14.. what do I do
+    // remember.. YOU MUST USE x and y
+    // the problems are not x and y, it is the function!
+    System.out.print(x);
+    System.err.println(y);
   }
 }

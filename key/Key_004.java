@@ -2,15 +2,16 @@ package key;
 
 public class Key_004 {
   public static void main(String[] args) {
+    String name = "Stefan";
+    String last = "Jakov";
+    int number = 14;
 
-    // run the code first, see what happens
-    int x = 1;
-    int y = 4;
-
-    // oh no.. this does not print 14.. what do I do
-    // remember.. YOU MUST USE x and y
-    // the problems are not x and y, it is the function!
-    System.out.print(x);
-    System.err.println(y);
+    // using the data above, print out EXACTLY
+    // Hello my name is Stefan Jakov and my favorite number is 14.
+    //
+    System.out.print("Hello my name is " + name);
+    System.out.print(" " + last);
+    System.out.print(" and my favorite number is ");
+    System.out.println(number);
   }
 }

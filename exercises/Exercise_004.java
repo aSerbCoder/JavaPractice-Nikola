@@ -13,25 +13,21 @@ package exercises;
 //                                                     // 
 // To not print a new line we use `System.out.print()` //
 //                                                     //
-//  Print my favorite number, 14 using x and y         //
+//  Print some things about me                         //
 //                                                     //
 // Goodluck!                                           //
 /////////////////////////////////////////////////////////
 
 public class Exercise_004 {
   public static void main(String[] args) {
+    String name = "Stefan";
+    String last = "Jakov";
+    int number = 14;
 
-    // run the code first, see what happens
-    int x = 1;
-    int y = 4;
+    // using the data above, print out EXACTLY
+    // Hello my name is Stefan Jakov and my favorite number is 14.
+    //
 
-    // oh no.. this does not print 14.. what do I do
-    // remember.. YOU MUST USE x and y
-    // the problems are not x and y, it is the function!
-    System.out.println(x);
-    System.err.println(y);
-
-    // hint...
-    // IF STRUGGLING, I still want a new line after 14
+  {INSERT PRINT STATEMENTS}
   }
 }

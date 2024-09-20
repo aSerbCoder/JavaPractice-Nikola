@@ -1,7 +1,7 @@
 package exercises;
 
 //////////////////////////////////////////////////////////
-// Welcome to the seventh exercise!                     // 
+// Welcome to the eigth exercise!                       // 
 // For loops                                            // 
 //                                                      // 
 //  Basic syntax:                                       // 
@@ -10,28 +10,32 @@ package exercises;
 //    }                                                 // 
 //  This prints out numbers 0-9, each                   // 
 //   on its own line.                                   // 
+//                                                      //
+// For loops for iteration                              //
+//                                                      //
+//  If you have an array, you can access each           //
+//  individual thing in the array with an iterator      //
+//  How this looks:                                     //
 //                                                      // 
-// Use this to add numbers 0-9 and save                 // 
-// the value in the variable "sum"                      // 
+//  https://www.w3schools.com/java/java_arrays_loop.asp //
 //                                                      // 
-// After, print sum                                     // 
+// Use this logic to print out your name with the       // 
+// variables I have given you.                          //
 //                                                      // 
 // Good luck!                                           // 
 //////////////////////////////////////////////////////////
 
-public class Exercise_007 {
+public class Exercise_008 {
   public static void main(String[] args) {
-    int sum = 0;
+    // your name as an array
+    Byte[] nikola = { 'n', 'i', 'k', 'o', 'l', 'a' };
+    // use the doc I gave you!!
+    for (int i = 0; i < {INSERT}; i++) {
+      // enter the correct print function
+      // as well as what goes with it
 
-    // remember, sum up numbers 0 -> 9
-    for (int step = 0; step < {INSERT}; step++) {
-      // in other words, sum is equal to itself
-      // plus whatever is on the right side.
-      {INSERT} += {INSERT};
+      // HERE ^^^
     }
-
-    // print sum, you should know how to do this
-    // by now
-    System.out.println(sum);
+    System.out.println();
   }
 }
