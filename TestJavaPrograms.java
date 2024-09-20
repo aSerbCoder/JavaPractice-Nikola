@@ -9,10 +9,10 @@ public class TestJavaPrograms {
   public static boolean Testing(String exercise) {
 
     // File paths
-    String studentProgramPath = "exercises/Exercise_" + exercise + ".java"; // Path to student's Java program
-    String professorProgramPath = "key/Key_" + exercise + ".java"; // Path to professor's Java program
-    String studentOutput = "outputs/studentOutput.txt";
-    String professorOutput = "outputs/professorOutput.txt";
+    String studentProgramPath = "exercises\\Exercise_" + exercise + ".java"; // Path to student's Java program
+    String professorProgramPath = "key\\Key_" + exercise + ".java"; // Path to professor's Java program
+    String studentOutput = "outputs\\studentOutput.txt";
+    String professorOutput = "outputs\\professorOutput.txt";
 
     boolean value = false;
 
